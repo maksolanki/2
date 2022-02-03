@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sanFragment"
+            android:icon="@drawable/sandesh"
+            android:title="Sandesh"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/divFragment"
+            android:icon="@drawable/divyabaskar"
+            android:title="Divyabhaskar"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/toiFragment"
+            android:icon="@drawable/toi"
+            android:title="Times Of India"
+            android:menuCategory="secondary"/>
+
+
+        <item
+            android:id="@+id/abpFragment"
+            android:icon="@drawable/abp"
+            android:title="ABP News"
+            android:menuCategory="secondary"/>
+
+    </group>
+
+    <item android:title="UpComing"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/cnnFragment"
+                android:icon="@drawable/cnn"
+                android:title="CNN"
+                />
+        </menu>
+    </item>
+</menu>

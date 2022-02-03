@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/sanFragment">
+
+    <fragment
+        android:id="@+id/sanFragment"
+        android:name="com.example.news.ui.home.HomeFragment"
+        android:label="Sandesh"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/divFragment"
+        android:name="com.example.news.ui.gallery.GalleryFragment"
+        android:label="Divyabhaskar"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/toiFragment"
+        android:name="com.example.news.ui.slideshow.SlideshowFragment"
+        android:label="Times Of India"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/abpFragment"
+        android:name="com.example.news.Fragment.abpNews"
+        android:label="ABP News"
+        tools:layout="@layout/fragment_abp_news" />
+
+
+</navigation>
